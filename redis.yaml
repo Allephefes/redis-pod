@@ -9,6 +9,3 @@ spec:
     image: redis
     ports:
       - container Port:80
-    volumeMounts:
-    - name: redis-storage
-      mountPath: /data/redis
